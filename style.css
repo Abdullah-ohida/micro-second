@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.content{
+        background: linear-gradient(90deg, cyan, pink);
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.micro{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 1px 1px  5px rgba(0, 0, 0, .8) ;
+}
+
+.micro:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(285deg, rgba(0, 255, 255, .2) 50%, rgb(255, 192, 202, .5) 50%);
+    border-radius: 50%;
+}
+
+.micro:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    color: purple;
+}
+
+.flex1{
+    transform: rotate(30deg);
+}
+
+.flex1 div{
+    transform: rotate(-30deg);
+}
+.flex2{
+    transform: rotate(60deg);
+}
+.flex2 div{
+    transform: rotate(-60deg);
+}
+.flex3{
+    transform: rotate(90deg);
+}
+.flex3 div{
+    transform: rotate(-90deg);
+}
+.flex4{
+    transform: rotate(120deg);
+}
+.flex4 div{
+    transform: rotate(-120deg);
+}
+.flex5{
+    transform: rotate(150deg);
+}
+.flex5 div{
+    transform: rotate(-150deg);
+}
+.flex6{
+    transform: rotate(180deg);
+}
+.flex6 div{
+    transform: rotate(-180deg);
+}
+.flex7{
+    transform: rotate(210deg);
+}
+.flex7 div{
+    transform: rotate(-210deg);
+}
+.flex8{
+    transform: rotate(240deg);
+}
+.flex8 div{
+    transform: rotate(-240deg);
+}
+.flex9{
+    transform: rotate(270deg);
+}
+.flex9 div{
+    transform: rotate(-270deg);
+}
+.flex10{
+    transform: rotate(300deg);
+}
+.flex10 div{
+    transform: rotate(-300deg);
+}
+.flex11{
+    transform: rotate(330deg);
+}
+.flex11 div{
+    transform: rotate(-330deg);
+}
+.flex12{
+    transform: rotate(360deg);
+}
+.flex12 div{
+    transform: rotate(-360deg);
+}
+
+.hand{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hand div{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, .8);
+    text-align: center;
+}
+
+.micro_sec{
+    width: 2px;
+    height: 40%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.sec{
+    height: 35%;
+    width: 4px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.min{
+    height: 25%;
+    width: 6px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
